@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>PreziPlayer basic demo</title>
+</head>
+<body>
+
+<!-- navigation -->
+<h1>Prezi Player</h1>
+<hr />
+<!-- /navigation -->
+
+<!-- content -->
+<div style="width: 500px;">
+	<div>
+		<div id="prezi-player" class="player"></div>
+	</div>
+	<div>
+	    <input id="i-title" value="Loading..." style="width: 494px; font-size: 18px;" disabled />
+	</div>
+	<div style="float: left;">
+		<button type="button" id="b-previous" >Previous</button>
+		<button type="button" id="b-next">Next</button>
+		<span id="t-current-step">1</span> / <span id="t-step-count">?</span>
+	</div>
+	<div style="float: right;">
+		<input type="text" id="i-step-number" value="3" style="width: 24px;"/>
+		<button type="button" id="b-move-to-step">Move to step</button>
+	</div>
+</div>
+<!-- /content -->
+
+<!-- scripts -->
+<script src="http://prezi.github.io/prezi-player/lib/PreziPlayer/prezi_player.js"></script>
+<script src="lib/app.js"></script>
+<!-- /scripts -->
+
+</body>
+</html>
